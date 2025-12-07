@@ -1,0 +1,600 @@
+2025-12-07 14:25:25.866 [info] [main] Log level: Info
+2025-12-07 14:25:25.866 [info] [main] Validating found git in: "C:\Program Files\Git\cmd\git.exe"
+2025-12-07 14:25:25.866 [info] [main] Using git "2.45.1.windows.1" from "C:\Program Files\Git\cmd\git.exe"
+2025-12-07 14:25:25.866 [info] [Model][doInitialScan] Initial repository scan started
+2025-12-07 14:25:25.866 [info] > git rev-parse --show-toplevel [2049ms]
+2025-12-07 14:25:28.481 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [2677ms]
+2025-12-07 14:25:28.709 [info] [Model][openRepository] Opened repository (path): c:\Users\LENOVO\Dashboard.py\2525---PROGRAMACION-ORIENTADA-A-OBJETOS-D----UEA-L-UFB-030\.vscode\T-cnicas-de-Programaci-n
+2025-12-07 14:25:28.713 [info] [Model][openRepository] Opened repository (real path): c:\Users\LENOVO\Dashboard.py\2525---PROGRAMACION-ORIENTADA-A-OBJETOS-D----UEA-L-UFB-030\.vscode\T-cnicas-de-Programaci-n
+2025-12-07 14:25:28.713 [info] [Model][openRepository] Opened repository (kind): repository
+2025-12-07 14:25:30.155 [info] > git rev-parse --show-toplevel [762ms]
+2025-12-07 14:25:30.165 [info] > git config --get commit.template [984ms]
+2025-12-07 14:25:30.800 [info] > git rev-parse --show-toplevel [473ms]
+2025-12-07 14:25:30.801 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [782ms]
+2025-12-07 14:25:30.895 [info] > git check-ignore -v -z --stdin [759ms]
+2025-12-07 14:25:31.188 [info] > git rev-parse --show-toplevel [326ms]
+2025-12-07 14:25:31.331 [info] > git status -z -uall [373ms]
+2025-12-07 14:25:31.372 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [323ms]
+2025-12-07 14:25:31.785 [info] > git rev-parse --show-toplevel [546ms]
+2025-12-07 14:25:31.968 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [458ms]
+2025-12-07 14:25:32.115 [info] > git config --get commit.template [331ms]
+2025-12-07 14:25:32.161 [info] > git rev-parse --show-toplevel [275ms]
+2025-12-07 14:25:32.166 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-12-07 14:25:32.224 [info] > git config --get --local branch.main.vscode-merge-base [223ms]
+2025-12-07 14:25:32.276 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [206ms]
+2025-12-07 14:25:32.402 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/origin/main refs/remotes/origin/main [152ms]
+2025-12-07 14:25:32.463 [info] > git status -z -uall [164ms]
+2025-12-07 14:25:32.497 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [176ms]
+2025-12-07 14:25:32.627 [info] > git merge-base refs/heads/main refs/remotes/origin/main [191ms]
+2025-12-07 14:25:32.719 [info] > git merge-base refs/heads/main refs/remotes/origin/main [195ms]
+2025-12-07 14:25:32.883 [info] > git diff --name-status -z --diff-filter=ADMR --find-renames=50% 891f357bf51dd3ecaa8ddd618034ef4e6ee80a24...refs/remotes/origin/main -- [222ms]
+2025-12-07 14:25:32.934 [info] > git diff --name-status -z --diff-filter=ADMR --find-renames=50% 891f357bf51dd3ecaa8ddd618034ef4e6ee80a24...refs/remotes/origin/main -- [176ms]
+2025-12-07 14:25:55.974 [info] [main] Log level: Info
+2025-12-07 14:25:55.975 [info] [main] Validating found git in: "C:\Program Files\Git\cmd\git.exe"
+2025-12-07 14:25:55.975 [info] [main] Using git "2.45.1.windows.1" from "C:\Program Files\Git\cmd\git.exe"
+2025-12-07 14:25:55.975 [info] [Model][doInitialScan] Initial repository scan started
+2025-12-07 14:25:56.068 [info] > git rev-parse --show-toplevel [245ms]
+2025-12-07 14:25:56.068 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-12-07 14:25:56.317 [info] > git rev-parse --show-toplevel [226ms]
+2025-12-07 14:25:56.317 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-12-07 14:25:56.322 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-12-07 14:25:57.457 [info] > git rev-parse --show-toplevel [422ms]
+2025-12-07 14:25:57.457 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-12-07 14:28:57.448 [info] [main] Log level: Info
+2025-12-07 14:28:57.453 [info] [main] Validating found git in: "C:\Program Files\Git\cmd\git.exe"
+2025-12-07 14:28:57.675 [info] [main] Using git "2.45.1.windows.1" from "C:\Program Files\Git\cmd\git.exe"
+2025-12-07 14:28:57.675 [info] [Model][doInitialScan] Initial repository scan started
+2025-12-07 14:28:58.037 [info] > git rev-parse --show-toplevel [278ms]
+2025-12-07 14:28:58.038 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-12-07 14:28:58.195 [info] > git rev-parse --show-toplevel [137ms]
+2025-12-07 14:28:58.195 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-12-07 14:28:58.201 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-12-07 14:28:59.044 [info] > git rev-parse --show-toplevel [252ms]
+2025-12-07 14:28:59.044 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-12-07 14:30:26.507 [info] > git rev-parse --show-toplevel [169ms]
+2025-12-07 14:30:26.507 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-12-07 14:46:24.025 [info] > git rev-parse --show-toplevel [325ms]
+2025-12-07 14:46:24.027 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-12-07 14:47:45.846 [info] > git rev-parse --show-toplevel [207ms]
+2025-12-07 14:47:45.848 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-12-07 14:57:49.184 [info] > git rev-parse --show-toplevel [503ms]
+2025-12-07 14:57:49.191 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-12-07 15:01:18.089 [info] > git rev-parse --show-toplevel [458ms]
+2025-12-07 15:01:18.090 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-12-07 15:01:27.816 [info] > git rev-parse --show-toplevel [350ms]
+2025-12-07 15:01:27.817 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-12-07 15:03:28.224 [info] > git rev-parse --show-toplevel [230ms]
+2025-12-07 15:03:28.225 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-12-07 15:03:28.456 [info] > git rev-parse --show-toplevel [205ms]
+2025-12-07 15:03:28.456 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-12-07 15:03:36.124 [info] > git rev-parse --show-toplevel [133ms]
+2025-12-07 15:03:36.124 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-12-07 15:42:26.222 [info] > git rev-parse --show-toplevel [409ms]
+2025-12-07 15:42:26.225 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-12-07 15:42:26.553 [info] > git rev-parse --show-toplevel [149ms]
+2025-12-07 15:42:26.553 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-12-07 15:42:28.348 [info] > git rev-parse --show-toplevel [132ms]
+2025-12-07 15:42:28.348 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-12-07 15:43:15.290 [info] > git rev-parse --show-toplevel [175ms]
+2025-12-07 15:43:15.290 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-12-07 15:43:32.516 [info] > git rev-parse --show-toplevel [179ms]
+2025-12-07 15:43:32.516 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-12-07 15:43:55.624 [info] > git rev-parse --show-toplevel [381ms]
+2025-12-07 15:43:55.624 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-12-07 15:47:13.651 [info] > git init -b main [297ms]
+2025-12-07 15:47:13.838 [info] > git rev-parse --show-toplevel [162ms]
+2025-12-07 15:47:14.267 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [388ms]
+2025-12-07 15:47:15.233 [info] [Model][openRepository] Opened repository (path): c:\Users\LENOVO\OneDrive - Universidad Estatal Amazónica\Documentos\ESTRUCTURA DE DATOS PROYECTOS\ESTRUCTURADEDATOSPROYECTOS1
+2025-12-07 15:47:15.234 [info] [Model][openRepository] Opened repository (real path): c:\Users\LENOVO\OneDrive - Universidad Estatal Amazónica\Documentos\ESTRUCTURA DE DATOS PROYECTOS\ESTRUCTURADEDATOSPROYECTOS1
+2025-12-07 15:47:15.234 [info] [Model][openRepository] Opened repository (kind): repository
+2025-12-07 15:47:16.606 [info] > git add -A -- . [1221ms]
+2025-12-07 15:47:16.675 [info] > git config --get commit.template [859ms]
+2025-12-07 15:47:16.676 [info] > git fetch [1566ms]
+2025-12-07 15:47:16.883 [info] [Git][getRemotes] No remotes found in the git config file
+2025-12-07 15:47:17.123 [info] [Git][getRemotes] No remotes found in the git config file
+2025-12-07 15:47:17.266 [info] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - --allow-empty-message [603ms]
+2025-12-07 15:47:17.266 [info] Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+2025-12-07 15:47:17.322 [info] > git config --get commit.template [581ms]
+2025-12-07 15:47:17.330 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [465ms]
+2025-12-07 15:47:17.331 [warning] [Git][getBranch] No such branch: main
+2025-12-07 15:47:17.424 [info] > git show --textconv :Program.cs [462ms]
+2025-12-07 15:47:17.459 [info] > git ls-files --stage -- Program.cs [441ms]
+2025-12-07 15:47:17.538 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [415ms]
+2025-12-07 15:47:17.538 [warning] [Git][getBranch] No such branch: main
+2025-12-07 15:47:17.545 [info] [Git][getRemotes] No remotes found in the git config file
+2025-12-07 15:47:17.630 [info] > git check-ignore -v -z --stdin [398ms]
+2025-12-07 15:47:17.634 [info] > git config --get-all user.name [312ms]
+2025-12-07 15:47:17.714 [info] [Git][getRemotes] No remotes found in the git config file
+2025-12-07 15:47:17.796 [info] > git config --get commit.template [352ms]
+2025-12-07 15:47:17.796 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [380ms]
+2025-12-07 15:47:17.796 [warning] [Git][getBranch] No such branch: main
+2025-12-07 15:47:17.799 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for main: Error: No such branch: main.
+2025-12-07 15:47:17.855 [info] > git cat-file -s 7828c9c73eaaf70e238af3f3f01e37116b44b61c [360ms]
+2025-12-07 15:47:17.950 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [322ms]
+2025-12-07 15:47:17.950 [warning] [Git][getBranch] No such branch: main
+2025-12-07 15:47:17.981 [info] > git config --get commit.template [308ms]
+2025-12-07 15:47:18.053 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [339ms]
+2025-12-07 15:47:18.053 [warning] [Git][getBranch] No such branch: main
+2025-12-07 15:47:18.166 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [236ms]
+2025-12-07 15:47:18.166 [info] fatal: bad revision 'refs/heads/main'
+2025-12-07 15:47:18.167 [error] [GitHistoryProvider][provideHistoryItems] Failed to get history items with options '{"historyItemRefs":["refs/heads/main"],"limit":50,"skip":0}': Failed to execute git {
+  "exitCode": 128,
+  "gitCommand": "log",
+  "stdout": "",
+  "stderr": "fatal: bad revision 'refs/heads/main'\n"
+}
+2025-12-07 15:47:18.278 [info] > git status -z -uall [192ms]
+2025-12-07 15:47:18.306 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [192ms]
+2025-12-07 15:47:18.602 [info] > git ls-files --stage -- Program.cs [172ms]
+2025-12-07 15:47:18.803 [info] > git cat-file -s 7828c9c73eaaf70e238af3f3f01e37116b44b61c [179ms]
+2025-12-07 15:47:18.939 [info] > git show --textconv HEAD:Program.cs [184ms]
+2025-12-07 15:47:18.973 [info] > git ls-tree -l HEAD -- Program.cs [188ms]
+2025-12-07 15:47:18.973 [info] fatal: Not a valid object name HEAD
+2025-12-07 15:47:19.003 [info] > git show --textconv :Program.cs [171ms]
+2025-12-07 15:47:19.255 [info] > git hash-object -t tree /dev/null [283ms]
+2025-12-07 15:47:19.255 [warning] [GitFileSystemProvider][readFile] File not found - git:/c%3A/Users/LENOVO/OneDrive%20-%20Universidad%20Estatal%20Amaz%C3%B3nica/Documentos/ESTRUCTURA%20DE%20DATOS%20PROYECTOS/ESTRUCTURADEDATOSPROYECTOS1/Program.cs.git?%7B%22path%22%3A%22c%3A%5C%5CUsers%5C%5CLENOVO%5C%5COneDrive%20-%20Universidad%20Estatal%20Amaz%C3%B3nica%5C%5CDocumentos%5C%5CESTRUCTURA%20DE%20DATOS%20PROYECTOS%5C%5CESTRUCTURADEDATOSPROYECTOS1%5C%5CProgram.cs%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-12-07 15:47:19.261 [info] > git hash-object -t tree /dev/null [267ms]
+2025-12-07 15:47:19.262 [warning] [GitFileSystemProvider][stat] File not found - git:/c%3A/Users/LENOVO/OneDrive%20-%20Universidad%20Estatal%20Amaz%C3%B3nica/Documentos/ESTRUCTURA%20DE%20DATOS%20PROYECTOS/ESTRUCTURADEDATOSPROYECTOS1/Program.cs.git?%7B%22path%22%3A%22c%3A%5C%5CUsers%5C%5CLENOVO%5C%5COneDrive%20-%20Universidad%20Estatal%20Amaz%C3%B3nica%5C%5CDocumentos%5C%5CESTRUCTURA%20DE%20DATOS%20PROYECTOS%5C%5CESTRUCTURADEDATOSPROYECTOS1%5C%5CProgram.cs%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-12-07 15:47:19.305 [info] > git check-ignore -v -z --stdin [156ms]
+2025-12-07 15:47:22.321 [info] > git check-ignore -v -z --stdin [97ms]
+2025-12-07 15:47:26.187 [info] > git -c user.useConfigOnly=true commit --quiet [132ms]
+2025-12-07 15:47:26.187 [info] Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+2025-12-07 15:47:26.310 [info] > git config --get-all user.name [106ms]
+2025-12-07 15:47:26.357 [info] [Git][getRemotes] No remotes found in the git config file
+2025-12-07 15:47:26.447 [info] > git config --get commit.template [111ms]
+2025-12-07 15:47:26.478 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [122ms]
+2025-12-07 15:47:26.478 [warning] [Git][getBranch] No such branch: main
+2025-12-07 15:47:26.603 [info] > git status -z -uall [112ms]
+2025-12-07 15:47:26.619 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [111ms]
+2025-12-07 15:47:26.706 [info] [Git][getRemotes] No remotes found in the git config file
+2025-12-07 15:47:26.836 [info] > git config --get commit.template [150ms]
+2025-12-07 15:47:26.910 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [205ms]
+2025-12-07 15:47:26.911 [warning] [Git][getBranch] No such branch: main
+2025-12-07 15:47:27.058 [info] > git ls-files --stage -- Program.cs [240ms]
+2025-12-07 15:47:27.157 [info] > git status -z -uall [223ms]
+2025-12-07 15:47:27.169 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [185ms]
+2025-12-07 15:47:27.229 [info] > git cat-file -s 7828c9c73eaaf70e238af3f3f01e37116b44b61c [128ms]
+2025-12-07 15:47:27.360 [info] > git show --textconv :Program.cs [113ms]
+2025-12-07 15:47:34.615 [info] [Git][getRemotes] No remotes found in the git config file
+2025-12-07 15:47:34.903 [info] > git config --get commit.template [345ms]
+2025-12-07 15:47:35.009 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [395ms]
+2025-12-07 15:47:35.009 [warning] [Git][getBranch] No such branch: main
+2025-12-07 15:47:35.087 [info] > git ls-files --stage -- Program.cs [411ms]
+2025-12-07 15:47:35.284 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [199ms]
+2025-12-07 15:47:35.307 [info] > git status -z -uall [253ms]
+2025-12-07 15:47:35.322 [info] > git cat-file -s 7828c9c73eaaf70e238af3f3f01e37116b44b61c [206ms]
+2025-12-07 15:47:35.541 [info] > git show --textconv :Program.cs [187ms]
+2025-12-07 15:47:41.603 [info] > git ls-files --stage -- obj/Debug/net10.0/ESTRUCTURADEDATOSPROYECTOS1.AssemblyInfo.cs [211ms]
+2025-12-07 15:47:41.640 [info] > git show --textconv :obj/Debug/net10.0/ESTRUCTURADEDATOSPROYECTOS1.AssemblyInfo.cs [285ms]
+2025-12-07 15:47:41.775 [info] > git cat-file -s 35c09af76a953c72a950e625b9dbef0e195c3e37 [138ms]
+2025-12-07 15:47:42.121 [info] > git check-ignore -v -z --stdin [186ms]
+2025-12-07 15:47:46.610 [info] > git show --textconv :ESTRUCTURADEDATOSPROYECTOS1.csproj [217ms]
+2025-12-07 15:47:46.615 [info] > git ls-files --stage -- ESTRUCTURADEDATOSPROYECTOS1.csproj [173ms]
+2025-12-07 15:47:46.786 [info] > git cat-file -s ed9781c223ab97571e13f98c401aa0e9a1b55a4b [143ms]
+2025-12-07 15:47:47.149 [info] > git check-ignore -v -z --stdin [174ms]
+2025-12-07 15:47:48.098 [info] > git show --textconv :ESTRUCTURADEDATOSPROYECTOS1.sln [154ms]
+2025-12-07 15:47:48.100 [info] > git ls-files --stage -- ESTRUCTURADEDATOSPROYECTOS1.sln [131ms]
+2025-12-07 15:47:48.224 [info] > git cat-file -s fd2f910213cb219201b62ecf7228f0e990608e59 [99ms]
+2025-12-07 15:47:48.616 [info] > git check-ignore -v -z --stdin [113ms]
+2025-12-07 15:47:49.301 [info] > git show --textconv :Program.cs [222ms]
+2025-12-07 15:47:49.331 [info] > git ls-files --stage -- Program.cs [186ms]
+2025-12-07 15:47:49.573 [info] > git cat-file -s 7828c9c73eaaf70e238af3f3f01e37116b44b61c [185ms]
+2025-12-07 15:47:49.883 [info] > git check-ignore -v -z --stdin [208ms]
+2025-12-07 15:47:50.477 [info] > git show --textconv :bin/Debug/net10.0/ESTRUCTURADEDATOSPROYECTOS1.deps.json [183ms]
+2025-12-07 15:47:50.484 [info] > git ls-files --stage -- bin/Debug/net10.0/ESTRUCTURADEDATOSPROYECTOS1.deps.json [159ms]
+2025-12-07 15:47:50.656 [info] > git cat-file -s 52c8579c0789d4ed0ec734754fa33686704e9daa [142ms]
+2025-12-07 15:47:50.977 [info] > git check-ignore -v -z --stdin [129ms]
+2025-12-07 15:47:51.524 [info] > git show --textconv :Program.cs [136ms]
+2025-12-07 15:47:51.533 [info] > git ls-files --stage -- Program.cs [128ms]
+2025-12-07 15:47:51.664 [info] > git cat-file -s 7828c9c73eaaf70e238af3f3f01e37116b44b61c [109ms]
+2025-12-07 15:47:55.328 [info] > git -c user.useConfigOnly=true commit --quiet [250ms]
+2025-12-07 15:47:55.329 [info] Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+2025-12-07 15:47:55.472 [info] > git config --get-all user.name [119ms]
+2025-12-07 15:47:55.519 [info] [Git][getRemotes] No remotes found in the git config file
+2025-12-07 15:47:55.621 [info] > git config --get commit.template [129ms]
+2025-12-07 15:47:55.653 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [135ms]
+2025-12-07 15:47:55.653 [warning] [Git][getBranch] No such branch: main
+2025-12-07 15:47:55.814 [info] > git status -z -uall [146ms]
+2025-12-07 15:47:55.819 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [129ms]
+2025-12-07 15:47:59.043 [info] > git ls-files --stage -- Program.cs [142ms]
+2025-12-07 15:47:59.171 [info] > git cat-file -s 7828c9c73eaaf70e238af3f3f01e37116b44b61c [110ms]
+2025-12-07 15:48:08.965 [info] > git -c user.useConfigOnly=true commit --quiet [191ms]
+2025-12-07 15:48:08.967 [info] Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+2025-12-07 15:48:09.137 [info] > git config --get-all user.name [148ms]
+2025-12-07 15:48:09.191 [info] [Git][getRemotes] No remotes found in the git config file
+2025-12-07 15:48:09.312 [info] > git config --get commit.template [152ms]
+2025-12-07 15:48:09.338 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [147ms]
+2025-12-07 15:48:09.339 [warning] [Git][getBranch] No such branch: main
+2025-12-07 15:48:09.494 [info] > git status -z -uall [140ms]
+2025-12-07 15:48:09.497 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [121ms]
+2025-12-07 15:48:11.948 [info] > git ls-files --stage -- Program.cs [205ms]
+2025-12-07 15:48:12.148 [info] > git cat-file -s 7828c9c73eaaf70e238af3f3f01e37116b44b61c [175ms]
+2025-12-07 15:48:22.221 [info] > git -c user.useConfigOnly=true commit --quiet [194ms]
+2025-12-07 15:48:22.222 [info] Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+2025-12-07 15:48:22.385 [info] > git config --get-all user.name [142ms]
+2025-12-07 15:48:22.413 [info] [Git][getRemotes] No remotes found in the git config file
+2025-12-07 15:48:22.557 [info] > git config --get commit.template [146ms]
+2025-12-07 15:48:22.589 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [147ms]
+2025-12-07 15:48:22.590 [warning] [Git][getBranch] No such branch: main
+2025-12-07 15:48:22.748 [info] > git status -z -uall [140ms]
+2025-12-07 15:48:22.757 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [127ms]
+2025-12-07 15:48:28.280 [info] > git ls-files --stage -- Program.cs [178ms]
+2025-12-07 15:48:28.500 [info] > git cat-file -s 7828c9c73eaaf70e238af3f3f01e37116b44b61c [196ms]
+2025-12-07 15:48:40.661 [info] > git -c user.useConfigOnly=true commit --quiet [178ms]
+2025-12-07 15:48:40.662 [info] Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+2025-12-07 15:48:40.835 [info] > git config --get-all user.name [151ms]
+2025-12-07 15:48:40.860 [info] [Git][getRemotes] No remotes found in the git config file
+2025-12-07 15:48:41.030 [info] > git config --get commit.template [173ms]
+2025-12-07 15:48:41.078 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [173ms]
+2025-12-07 15:48:41.078 [warning] [Git][getBranch] No such branch: main
+2025-12-07 15:48:41.264 [info] > git status -z -uall [164ms]
+2025-12-07 15:48:41.288 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [162ms]
+2025-12-07 15:48:44.947 [info] > git ls-files --stage -- Program.cs [166ms]
+2025-12-07 15:48:45.157 [info] > git cat-file -s 7828c9c73eaaf70e238af3f3f01e37116b44b61c [174ms]
+2025-12-07 15:48:57.343 [info] > git ls-files --stage -- Program.cs [269ms]
+2025-12-07 15:48:57.521 [info] > git cat-file -s 7828c9c73eaaf70e238af3f3f01e37116b44b61c [157ms]
+2025-12-07 15:49:11.460 [info] > git -c user.useConfigOnly=true commit --quiet [186ms]
+2025-12-07 15:49:11.461 [info] Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+2025-12-07 15:49:11.646 [info] > git config --get-all user.name [163ms]
+2025-12-07 15:49:11.701 [info] [Git][getRemotes] No remotes found in the git config file
+2025-12-07 15:49:11.804 [info] > git config --get commit.template [135ms]
+2025-12-07 15:49:11.837 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [137ms]
+2025-12-07 15:49:11.837 [warning] [Git][getBranch] No such branch: main
+2025-12-07 15:49:12.008 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [130ms]
+2025-12-07 15:49:12.017 [info] > git status -z -uall [162ms]
+2025-12-07 15:49:13.745 [info] > git ls-files --stage -- Program.cs [143ms]
+2025-12-07 15:49:13.892 [info] > git cat-file -s 7828c9c73eaaf70e238af3f3f01e37116b44b61c [126ms]
+2025-12-07 15:49:30.445 [info] > git ls-files --stage -- Program.cs [165ms]
+2025-12-07 15:49:30.572 [info] > git cat-file -s 7828c9c73eaaf70e238af3f3f01e37116b44b61c [109ms]
+2025-12-07 15:49:46.377 [info] > git -c user.useConfigOnly=true commit --quiet [213ms]
+2025-12-07 15:49:46.377 [info] Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+2025-12-07 15:49:46.559 [info] > git config --get-all user.name [158ms]
+2025-12-07 15:49:46.637 [info] [Git][getRemotes] No remotes found in the git config file
+2025-12-07 15:49:46.773 [info] > git config --get commit.template [175ms]
+2025-12-07 15:49:46.821 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [185ms]
+2025-12-07 15:49:46.823 [warning] [Git][getBranch] No such branch: main
+2025-12-07 15:49:47.035 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [150ms]
+2025-12-07 15:49:47.050 [info] > git status -z -uall [202ms]
+2025-12-07 15:50:19.717 [info] > git ls-files --stage -- Program.cs [186ms]
+2025-12-07 15:50:19.902 [info] > git fetch [421ms]
+2025-12-07 15:50:19.984 [info] [Git][getRemotes] No remotes found in the git config file
+2025-12-07 15:50:19.986 [info] > git cat-file -s 7828c9c73eaaf70e238af3f3f01e37116b44b61c [229ms]
+2025-12-07 15:50:20.141 [info] > git config --get commit.template [207ms]
+2025-12-07 15:50:20.183 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [199ms]
+2025-12-07 15:50:20.184 [warning] [Git][getBranch] No such branch: main
+2025-12-07 15:50:20.389 [info] > git status -z -uall [173ms]
+2025-12-07 15:50:20.411 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [166ms]
+2025-12-07 15:50:21.163 [info] > git ls-files --stage -- Program.cs [128ms]
+2025-12-07 15:50:21.292 [info] > git cat-file -s 7828c9c73eaaf70e238af3f3f01e37116b44b61c [103ms]
+2025-12-07 15:50:21.436 [info] > git show --textconv :Program.cs [123ms]
+2025-12-07 15:50:22.065 [info] [Git][getRemotes] No remotes found in the git config file
+2025-12-07 15:50:22.168 [info] > git config --get commit.template [127ms]
+2025-12-07 15:50:22.192 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [127ms]
+2025-12-07 15:50:22.192 [warning] [Git][getBranch] No such branch: main
+2025-12-07 15:50:22.334 [info] > git status -z -uall [123ms]
+2025-12-07 15:50:22.341 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [112ms]
+2025-12-07 15:50:23.993 [info] > git ls-files --stage -- Program.cs [106ms]
+2025-12-07 15:50:24.116 [info] > git cat-file -s 7828c9c73eaaf70e238af3f3f01e37116b44b61c [102ms]
+2025-12-07 15:50:24.252 [info] > git show --textconv :Program.cs [118ms]
+2025-12-07 15:50:27.414 [info] [Git][getRemotes] No remotes found in the git config file
+2025-12-07 15:50:27.823 [info] > git config --get commit.template [414ms]
+2025-12-07 15:50:27.835 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [387ms]
+2025-12-07 15:50:27.835 [warning] [Git][getBranch] No such branch: main
+2025-12-07 15:50:28.008 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [130ms]
+2025-12-07 15:50:28.039 [info] > git status -z -uall [185ms]
+2025-12-07 15:51:09.937 [info] > git ls-files --stage -- Program.cs [196ms]
+2025-12-07 15:51:10.209 [info] > git cat-file -s 7828c9c73eaaf70e238af3f3f01e37116b44b61c [215ms]
+2025-12-07 15:51:25.995 [info] > git -c user.useConfigOnly=true commit --quiet [191ms]
+2025-12-07 15:51:25.997 [info] Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+2025-12-07 15:51:26.157 [info] > git config --get-all user.name [131ms]
+2025-12-07 15:51:26.235 [info] [Git][getRemotes] No remotes found in the git config file
+2025-12-07 15:51:26.397 [info] > git config --get commit.template [177ms]
+2025-12-07 15:51:26.480 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [191ms]
+2025-12-07 15:51:26.486 [warning] [Git][getBranch] No such branch: main
+2025-12-07 15:51:27.039 [info] > git status -z -uall [519ms]
+2025-12-07 15:51:27.077 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [516ms]
+2025-12-07 15:51:30.455 [info] > git ls-files --stage -- Program.cs [184ms]
+2025-12-07 15:51:30.631 [info] > git cat-file -s 7828c9c73eaaf70e238af3f3f01e37116b44b61c [151ms]
+2025-12-07 15:52:02.960 [info] > git ls-files --stage -- Program.cs [323ms]
+2025-12-07 15:52:03.160 [info] > git cat-file -s 7828c9c73eaaf70e238af3f3f01e37116b44b61c [173ms]
+2025-12-07 15:52:09.207 [info] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - [230ms]
+2025-12-07 15:52:09.207 [info] Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+2025-12-07 15:52:09.327 [info] > git config --get-all user.name [98ms]
+2025-12-07 15:52:09.395 [info] [Git][getRemotes] No remotes found in the git config file
+2025-12-07 15:52:09.485 [info] > git config --get commit.template [125ms]
+2025-12-07 15:52:09.538 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [145ms]
+2025-12-07 15:52:09.538 [warning] [Git][getBranch] No such branch: main
+2025-12-07 15:52:09.709 [info] > git status -z -uall [134ms]
+2025-12-07 15:52:09.722 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [126ms]
+2025-12-07 15:52:12.223 [info] > git ls-files --stage -- Program.cs [104ms]
+2025-12-07 15:52:12.332 [info] > git cat-file -s 7828c9c73eaaf70e238af3f3f01e37116b44b61c [95ms]
+2025-12-07 15:52:18.724 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [132ms]
+2025-12-07 15:52:18.724 [info] fatal: bad revision 'refs/heads/main'
+2025-12-07 15:52:18.727 [error] [GitHistoryProvider][provideHistoryItems] Failed to get history items with options '{"historyItemRefs":["refs/heads/main"],"limit":50,"skip":0}': Failed to execute git {
+  "exitCode": 128,
+  "gitCommand": "log",
+  "stdout": "",
+  "stderr": "fatal: bad revision 'refs/heads/main'\n"
+}
+2025-12-07 15:52:34.497 [info] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - [177ms]
+2025-12-07 15:52:34.497 [info] Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+2025-12-07 15:52:34.668 [info] > git config --get-all user.name [144ms]
+2025-12-07 15:52:34.726 [info] [Git][getRemotes] No remotes found in the git config file
+2025-12-07 15:52:34.841 [info] > git config --get commit.template [147ms]
+2025-12-07 15:52:34.885 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [159ms]
+2025-12-07 15:52:34.886 [warning] [Git][getBranch] No such branch: main
+2025-12-07 15:52:35.082 [info] > git status -z -uall [173ms]
+2025-12-07 15:52:35.109 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [176ms]
+2025-12-07 15:52:37.725 [info] > git ls-files --stage -- Program.cs [327ms]
+2025-12-07 15:52:38.044 [info] > git cat-file -s 7828c9c73eaaf70e238af3f3f01e37116b44b61c [284ms]
+2025-12-07 15:58:12.761 [info] > git ls-files --stage -- Program.cs [155ms]
+2025-12-07 15:58:12.806 [info] > git -c user.useConfigOnly=true commit --quiet [234ms]
+2025-12-07 15:58:12.807 [info] Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+2025-12-07 15:58:12.941 [info] > git cat-file -s 7828c9c73eaaf70e238af3f3f01e37116b44b61c [143ms]
+2025-12-07 15:58:12.966 [info] > git config --get-all user.name [134ms]
+2025-12-07 15:58:13.101 [info] [Git][getRemotes] No remotes found in the git config file
+2025-12-07 15:58:13.209 [info] > git config --get commit.template [153ms]
+2025-12-07 15:58:13.268 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [172ms]
+2025-12-07 15:58:13.270 [warning] [Git][getBranch] No such branch: main
+2025-12-07 15:58:13.472 [info] > git status -z -uall [177ms]
+2025-12-07 15:58:13.484 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [156ms]
+2025-12-07 15:58:13.932 [info] > git fetch [365ms]
+2025-12-07 15:58:15.015 [info] [Git][getRemotes] No remotes found in the git config file
+2025-12-07 15:58:15.730 [info] > git config --get commit.template [1769ms]
+2025-12-07 15:58:16.269 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [1254ms]
+2025-12-07 15:58:16.269 [warning] [Git][getBranch] No such branch: main
+2025-12-07 15:58:16.449 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [138ms]
+2025-12-07 15:58:16.459 [info] > git status -z -uall [169ms]
+2025-12-07 15:58:20.366 [info] [Git][getRemotes] No remotes found in the git config file
+2025-12-07 15:58:20.496 [info] > git ls-files --stage -- Program.cs [188ms]
+2025-12-07 15:58:20.523 [info] > git ls-files --stage -- Program.cs [179ms]
+2025-12-07 15:58:20.553 [info] > git config --get commit.template [188ms]
+2025-12-07 15:58:20.600 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [206ms]
+2025-12-07 15:58:20.600 [warning] [Git][getBranch] No such branch: main
+2025-12-07 15:58:20.766 [info] > git cat-file -s 7828c9c73eaaf70e238af3f3f01e37116b44b61c [245ms]
+2025-12-07 15:58:20.820 [info] > git cat-file -s 7828c9c73eaaf70e238af3f3f01e37116b44b61c [267ms]
+2025-12-07 15:58:20.889 [info] > git status -z -uall [270ms]
+2025-12-07 15:58:20.922 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [261ms]
+2025-12-07 15:58:21.083 [info] > git show --textconv :Program.cs [264ms]
+2025-12-07 15:58:21.083 [info] > git show --textconv :Program.cs [227ms]
+2025-12-07 15:58:29.291 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [181ms]
+2025-12-07 15:58:29.291 [info] fatal: bad revision 'refs/heads/main'
+2025-12-07 15:58:29.294 [error] [GitHistoryProvider][provideHistoryItems] Failed to get history items with options '{"historyItemRefs":["refs/heads/main"],"limit":50,"skip":0}': Failed to execute git {
+  "exitCode": 128,
+  "gitCommand": "log",
+  "stdout": "",
+  "stderr": "fatal: bad revision 'refs/heads/main'\n"
+}
+2025-12-07 15:58:33.217 [info] > git branch [126ms]
+2025-12-07 15:58:33.395 [info] > git rm --cached -r -- . [156ms]
+2025-12-07 15:58:33.428 [info] [Git][getRemotes] No remotes found in the git config file
+2025-12-07 15:58:33.565 [info] > git config --get commit.template [138ms]
+2025-12-07 15:58:33.606 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [151ms]
+2025-12-07 15:58:33.606 [warning] [Git][getBranch] No such branch: main
+2025-12-07 15:58:33.930 [info] > git status -z -uall [303ms]
+2025-12-07 15:58:33.962 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [307ms]
+2025-12-07 15:58:34.822 [info] > git ls-files --stage -- Program.cs [132ms]
+2025-12-07 15:58:34.827 [warning] [GitFileSystemProvider][stat] File not found - git:/c%3A/Users/LENOVO/OneDrive%20-%20Universidad%20Estatal%20Amaz%C3%B3nica/Documentos/ESTRUCTURA%20DE%20DATOS%20PROYECTOS/ESTRUCTURADEDATOSPROYECTOS1/Program.cs?%7B%22path%22%3A%22c%3A%5C%5CUsers%5C%5CLENOVO%5C%5COneDrive%20-%20Universidad%20Estatal%20Amaz%C3%B3nica%5C%5CDocumentos%5C%5CESTRUCTURA%20DE%20DATOS%20PROYECTOS%5C%5CESTRUCTURADEDATOSPROYECTOS1%5C%5CProgram.cs%22%2C%22ref%22%3A%22%22%7D
+2025-12-07 15:58:36.665 [info] [Git][getRemotes] No remotes found in the git config file
+2025-12-07 15:58:36.764 [info] > git config --get commit.template [122ms]
+2025-12-07 15:58:36.797 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [132ms]
+2025-12-07 15:58:36.797 [warning] [Git][getBranch] No such branch: main
+2025-12-07 15:58:36.874 [info] > git ls-files --stage -- Program.cs [118ms]
+2025-12-07 15:58:36.875 [warning] [GitFileSystemProvider][stat] File not found - git:/c%3A/Users/LENOVO/OneDrive%20-%20Universidad%20Estatal%20Amaz%C3%B3nica/Documentos/ESTRUCTURA%20DE%20DATOS%20PROYECTOS/ESTRUCTURADEDATOSPROYECTOS1/Program.cs?%7B%22path%22%3A%22c%3A%5C%5CUsers%5C%5CLENOVO%5C%5COneDrive%20-%20Universidad%20Estatal%20Amaz%C3%B3nica%5C%5CDocumentos%5C%5CESTRUCTURA%20DE%20DATOS%20PROYECTOS%5C%5CESTRUCTURADEDATOSPROYECTOS1%5C%5CProgram.cs%22%2C%22ref%22%3A%22%22%7D
+2025-12-07 15:58:36.928 [info] > git status -z -uall [117ms]
+2025-12-07 15:58:36.947 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [114ms]
+2025-12-07 15:59:04.233 [info] > git add -A -- . [319ms]
+2025-12-07 15:59:04.419 [info] > git -c user.useConfigOnly=true commit --quiet [163ms]
+2025-12-07 15:59:04.419 [info] Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+2025-12-07 15:59:04.570 [info] > git config --get-all user.name [133ms]
+2025-12-07 15:59:04.592 [info] [Git][getRemotes] No remotes found in the git config file
+2025-12-07 15:59:04.738 [info] > git config --get commit.template [147ms]
+2025-12-07 15:59:04.774 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [145ms]
+2025-12-07 15:59:04.775 [warning] [Git][getBranch] No such branch: main
+2025-12-07 15:59:04.924 [info] > git status -z -uall [137ms]
+2025-12-07 15:59:04.935 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [130ms]
+2025-12-07 15:59:05.745 [info] > git show --textconv HEAD:Program.cs [322ms]
+2025-12-07 15:59:05.751 [warning] [GitFileSystemProvider][readFile] File not found - git:/c%3A/Users/LENOVO/OneDrive%20-%20Universidad%20Estatal%20Amaz%C3%B3nica/Documentos/ESTRUCTURA%20DE%20DATOS%20PROYECTOS/ESTRUCTURADEDATOSPROYECTOS1/Program.cs.git?%7B%22path%22%3A%22c%3A%5C%5CUsers%5C%5CLENOVO%5C%5COneDrive%20-%20Universidad%20Estatal%20Amaz%C3%B3nica%5C%5CDocumentos%5C%5CESTRUCTURA%20DE%20DATOS%20PROYECTOS%5C%5CESTRUCTURADEDATOSPROYECTOS1%5C%5CProgram.cs%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-12-07 15:59:05.769 [info] > git ls-files --stage -- Program.cs [307ms]
+2025-12-07 15:59:05.808 [info] > git show --textconv :Program.cs [437ms]
+2025-12-07 15:59:05.813 [info] > git ls-tree -l HEAD -- Program.cs [293ms]
+2025-12-07 15:59:05.813 [info] fatal: Not a valid object name HEAD
+2025-12-07 15:59:05.819 [warning] [GitFileSystemProvider][stat] File not found - git:/c%3A/Users/LENOVO/OneDrive%20-%20Universidad%20Estatal%20Amaz%C3%B3nica/Documentos/ESTRUCTURA%20DE%20DATOS%20PROYECTOS/ESTRUCTURADEDATOSPROYECTOS1/Program.cs.git?%7B%22path%22%3A%22c%3A%5C%5CUsers%5C%5CLENOVO%5C%5COneDrive%20-%20Universidad%20Estatal%20Amaz%C3%B3nica%5C%5CDocumentos%5C%5CESTRUCTURA%20DE%20DATOS%20PROYECTOS%5C%5CESTRUCTURADEDATOSPROYECTOS1%5C%5CProgram.cs%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-12-07 15:59:05.984 [info] > git cat-file -s 7828c9c73eaaf70e238af3f3f01e37116b44b61c [177ms]
+2025-12-07 15:59:24.474 [info] > git ls-files --stage -- Program.cs [270ms]
+2025-12-07 15:59:24.725 [info] > git cat-file -s 7828c9c73eaaf70e238af3f3f01e37116b44b61c [218ms]
+2025-12-07 15:59:24.963 [info] > git show --textconv :Program.cs [174ms]
+2025-12-07 15:59:25.207 [info] [Git][getRemotes] No remotes found in the git config file
+2025-12-07 15:59:25.362 [info] > git config --get commit.template [202ms]
+2025-12-07 15:59:25.400 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [195ms]
+2025-12-07 15:59:25.401 [warning] [Git][getBranch] No such branch: main
+2025-12-07 15:59:25.610 [info] > git status -z -uall [177ms]
+2025-12-07 15:59:25.616 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [150ms]
+2025-12-07 15:59:33.023 [info] [Git][getRemotes] No remotes found in the git config file
+2025-12-07 15:59:33.204 [info] > git config --get commit.template [182ms]
+2025-12-07 15:59:33.249 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [182ms]
+2025-12-07 15:59:33.250 [warning] [Git][getBranch] No such branch: main
+2025-12-07 15:59:33.326 [info] > git ls-files --stage -- Program.cs [227ms]
+2025-12-07 15:59:33.507 [info] > git status -z -uall [227ms]
+2025-12-07 15:59:33.530 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [210ms]
+2025-12-07 15:59:33.565 [info] > git cat-file -s 7828c9c73eaaf70e238af3f3f01e37116b44b61c [188ms]
+2025-12-07 15:59:33.886 [info] > git show --textconv :Program.cs [288ms]
+2025-12-07 16:01:16.963 [info] > git fetch [345ms]
+2025-12-07 16:01:17.090 [info] [Git][getRemotes] No remotes found in the git config file
+2025-12-07 16:01:17.218 [info] > git config --get commit.template [176ms]
+2025-12-07 16:01:17.258 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [177ms]
+2025-12-07 16:01:17.261 [warning] [Git][getBranch] No such branch: main
+2025-12-07 16:01:17.524 [info] > git status -z -uall [240ms]
+2025-12-07 16:01:17.553 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [227ms]
+2025-12-07 16:01:18.228 [info] > git ls-files --stage -- Program.cs [133ms]
+2025-12-07 16:01:18.343 [info] > git cat-file -s 7828c9c73eaaf70e238af3f3f01e37116b44b61c [99ms]
+2025-12-07 16:01:18.576 [info] > git show --textconv :Program.cs [160ms]
+2025-12-07 16:01:19.127 [info] [Git][getRemotes] No remotes found in the git config file
+2025-12-07 16:01:19.270 [info] > git config --get commit.template [143ms]
+2025-12-07 16:01:19.311 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [144ms]
+2025-12-07 16:01:19.311 [warning] [Git][getBranch] No such branch: main
+2025-12-07 16:01:19.497 [info] > git status -z -uall [168ms]
+2025-12-07 16:01:19.510 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [160ms]
+2025-12-07 16:01:22.103 [info] > git ls-files --stage -- Program.cs [114ms]
+2025-12-07 16:01:22.243 [info] > git cat-file -s 7828c9c73eaaf70e238af3f3f01e37116b44b61c [118ms]
+2025-12-07 16:01:22.381 [info] > git show --textconv :Program.cs [118ms]
+2025-12-07 16:01:27.425 [info] [Git][getRemotes] No remotes found in the git config file
+2025-12-07 16:01:27.677 [info] > git config --get commit.template [304ms]
+2025-12-07 16:01:27.707 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [283ms]
+2025-12-07 16:01:27.707 [warning] [Git][getBranch] No such branch: main
