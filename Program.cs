@@ -1,68 +1,73 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using System;
+using System;
 
-// Clase Circulo: representa una figura geométrica circular.
-// Encapsula el dato primitivo 'radio' (de tipo double) y 
-// proporciona métodos para calcular su área y perímetro.
-public class Circulo
+namespace GestionEstudiantes
 {
-    // Campo privado que almacena el radio del círculo.
-    private double _radio;
-
-    // Constructor de la clase. Recibe el valor del radio y lo valida.
-    // Lanza una excepción si el radio es cero o negativo.
-    public Circulo(double radio)
+    // Clase Estudiante
+    public class Estudiante
     {
-        if (radio <= 0)
-            throw new ArgumentException("El radio debe ser mayor que cero.");
-        _radio = radio;
+        public int ID { get; set; }
+        public string Nombres { get; set; }
+        public string Apellidos { get; set; }
+        public string Direccion { get; set; }
+        public string[] Telefonos { get; set; } // Array de 3 teléfonos
+
+        // Constructor
+        public Estudiante()
+        {
+            Telefonos = new string[3]; // Inicializa el array con 3 posiciones
+        }
+
+        // Método para mostrar los datos del estudiante
+        public void MostrarInformacion()
+        {
+            Console.WriteLine("\n--- Información del Estudiante ---");
+            Console.WriteLine($"ID: {ID}");
+            Console.WriteLine($"Nombres: {Nombres}");
+            Console.WriteLine($"Apellidos: {Apellidos}");
+            Console.WriteLine($"Dirección: {Direccion}");
+            Console.WriteLine("Teléfonos:");
+            for (int i = 0; i < Telefonos.Length; i++)
+            {
+                Console.WriteLine($"  Teléfono {i + 1}: {Telefonos[i]}");
+            }
+        }
     }
 
-    // CalcularArea es un método que devuelve un valor de tipo double.
-    // Se utiliza para calcular el área de un círculo usando la fórmula: π * radio².
-    // No recibe parámetros, porque utiliza el radio almacenado en la instancia.
-    public double CalcularArea()
+    // Clase principal
+    class Program
     {
-        return Math.PI * _radio * _radio;
-    }
+        static void Main(string[] args)
+        {
+            Console.WriteLine("=== Registro de Estudiante ===");
 
-    // CalcularPerimetro es un método que devuelve un valor de tipo double.
-    // Calcula el perímetro (circunferencia) del círculo con la fórmula: 2 * π * radio.
-    public double CalcularPerimetro()
-    {
-        return 2 * Math.PI * _radio;
-    }
-}
+            Estudiante estudiante = new Estudiante();
 
+            // Solicitar datos al usuario
+            Console.Write("Ingrese el ID del estudiante: ");
+            estudiante.ID = Convert.ToInt32(Console.ReadLine());
 
-// Clase Cuadrado: representa una figura geométrica con cuatro lados iguales.
-// Encapsula el dato primitivo 'lado' (de tipo double) y 
-// ofrece métodos para calcular su área y perímetro.
-public class Cuadrado
-{
-    // Campo privado que almacena la longitud del lado del cuadrado.
-    private double _lado;
+            Console.Write("Ingrese los nombres: ");
+            estudiante.Nombres = Console.ReadLine();
 
-    // Constructor de la clase. Recibe la longitud del lado y la valida.
-    // Lanza una excepción si el lado es cero o negativo.
-    public Cuadrado(double lado)
-    {
-        if (lado <= 0)
-            throw new ArgumentException("El lado debe ser mayor que cero.");
-        _lado = lado;
-    }
+            Console.Write("Ingrese los apellidos: ");
+            estudiante.Apellidos = Console.ReadLine();
 
-    // CalcularArea es un método que devuelve un valor de tipo double.
-    // Calcula el área del cuadrado usando la fórmula: lado * lado.
-    public double CalcularArea()
-    {
-        return _lado * _lado;
-    }
+            Console.Write("Ingrese la dirección: ");
+            estudiante.Direccion = Console.ReadLine();
 
-    // CalcularPerimetro es un método que devuelve un valor de tipo double.
-    // Calcula el perímetro del cuadrado con la fórmula: 4 * lado.
-    public double CalcularPerimetro()
-    {
-        return 4 * _lado;
+            // Leer los 3 números de teléfono
+            for (int i = 0; i < 3; i++)
+            {
+                Console.Write($"Ingrese el teléfono {i + 1}: ");
+                estudiante.Telefonos[i] = Console.ReadLine();
+            }
+
+            // Mostrar la información registrada
+            estudiante.MostrarInformacion();
+
+            Console.WriteLine("\nPresione cualquier tecla para salir...");
+            Console.ReadKey();
+        }
     }
 }
